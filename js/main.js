@@ -3,4 +3,3 @@ import {addAddFormAction} from './form.js';
 
 getPictureList();
 addAddFormAction();
-
