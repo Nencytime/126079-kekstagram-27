@@ -19,7 +19,8 @@
   "dependencies": {},
   "scripts": {
     "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
-    "lint": "eslint js/"
+    "lint": "eslint js/",
+    "build": "cross-env NODE_ENV=production gulp build"
   },
   "engines": {
     "node": "16.x",
